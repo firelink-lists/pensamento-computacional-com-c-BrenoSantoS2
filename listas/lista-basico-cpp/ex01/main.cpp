@@ -19,7 +19,6 @@ int main() {
     string nome;
     
     // TODO: Leia o nome do usuário
-    cout << "Digite seu nome: ";
     getline(cin, nome);
     
     // TODO: Exiba a saudação personalizada
