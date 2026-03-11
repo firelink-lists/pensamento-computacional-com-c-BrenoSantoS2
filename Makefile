@@ -48,7 +48,6 @@ test:
 test-lista%:
 	@echo "Testando lista $*..."
 	@python3 scripts/run_tests.py --lista $*
-
 # Processa PDFs e gera exercícios
 process-pdfs:
 	@echo "Processando PDFs..."
